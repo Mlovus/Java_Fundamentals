@@ -51,6 +51,6 @@ public class Exercise_02 {
         // 2) prompt user
         // 3) assign input to variable as int
         // 4) write completed code here
-
+    input.close();
     }
 }
