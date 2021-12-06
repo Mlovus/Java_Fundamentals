@@ -15,6 +15,6 @@ public class Exercise_06 {
             sum+=i;
             i++;
         }
-        System.out.println(sum);
+        System.out.println("the sum of digits 1-100: "+sum);
     }
 }
