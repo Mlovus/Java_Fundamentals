@@ -1,5 +1,7 @@
 package labs_examples.arrays.labs;
 
+import java.util.ArrayList;
+
 /**
  *  ArrayLists
  *
@@ -10,4 +12,19 @@ package labs_examples.arrays.labs;
  *
  */
 public class Exercise_07 {
+    public static void main(String[]args) {
+        ArrayList<Integer> numbs = new ArrayList<>();
+
+        for (int i = 0; i <10 ; i++) {
+            numbs.add((int)(Math.random()*100));
+        }
+
+        int example =numbs.get(0);
+        System.out.println(example);
+
+        for(Integer i: numbs){
+            System.out.print(i+" ");
+        }
+
+    }
 }
