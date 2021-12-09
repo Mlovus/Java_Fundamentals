@@ -21,8 +21,7 @@ public class Exercise_07 {
         String Vowels ="[aeiouAEIOU]";
         Scanner input = new Scanner(System.in);
         System.out.println("input a word");
-        //String word= input.next();
-        String word="trya";
+        String word= input.next();
         for (int i = 0; i < word.length();  i++) {
 
             if(Vowels.indexOf(word.charAt(i)) >=0){
