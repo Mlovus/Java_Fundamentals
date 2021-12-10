@@ -8,4 +8,22 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_08 {
+    public static void main(String[] args) {
+        int i=1000;
+        int j=0;
+        do {
+        if(j%3==0){
+            System.out.print(i+" ");
+            if (i%10==0){
+                System.out.println();
+            }
+        }
+        j++;
+        i--;
+        }while(i>-1);
+    }
+
+
+
+
 }
