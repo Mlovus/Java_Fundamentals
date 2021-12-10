@@ -22,5 +22,20 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_11 {
+    public static void main(String[] args) {
+        int[][] multiplication = new int[10][10];
 
+        for (int i = 0; i < multiplication.length ; i++) {
+            for (int j = 0; j < multiplication[i].length ; j++) {
+                multiplication[i][j]=(i+1)*(j+1);
+            }
+        }
+
+        for (int[] ints : multiplication) {
+            System.out.println();
+            for (int anInt : ints) {
+                System.out.print(anInt + " | ");
+            }
+        }
+    }
 }
