@@ -12,11 +12,24 @@ public class Exercise_04 {
 
     public static void main(String[] args) {
 
-        int i = 1;
-        System.out.println("int i is: " + i);
+        byte b = 100;
+        short s = 10000;
+        int i = 10;
+        long l= 1000000;
+        float f= 10.5f;
+        double d= 100.005;
+        char c ='C';
+        boolean t= true;
 
         // write your code below
-
+        System.out.println("b = " + b);
+        System.out.println("s = " + s);
+        System.out.println("i = " + i);
+        System.out.println("l = " + l);
+        System.out.println("f = " + f);
+        System.out.println("d = " + d);
+        System.out.println("c = " + c);
+        System.out.println("t = " + t);
     }
 
 }

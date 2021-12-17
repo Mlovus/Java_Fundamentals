@@ -22,3 +22,39 @@ Example Output (pwd):
     1. Cadens-MacBook-Pro:CodingNomads cadenmackenzie$ pwd
        /Users/cadenmackenzie/Documents/CodingNomads
 
+C:\Users\Max\Documents\CodingNomads
+λ mkdir Termial_testing
+
+C:\Users\Max\Documents\CodingNomads
+λ cd Termial_testing\
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ touch File1.txt File2.txt File3.txt
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ pwd
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ ls -al
+total 4
+drwxr-xr-x 1 Max 197121 0 Dec 17 00:21 ./
+drwxr-xr-x 1 Max 197121 0 Dec 17 00:20 ../
+-rw-r--r-- 1 Max 197121 0 Dec 17 00:21 File1.txt
+-rw-r--r-- 1 Max 197121 0 Dec 17 00:21 File2.txt
+-rw-r--r-- 1 Max 197121 0 Dec 17 00:21 File3.txt
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ mkdir Terminal_testing_Sub
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ cp File1.txt Terminal_testing_Sub\
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ mv File2.txt Terminal_testing_Sub\
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ del File3.txt
+
+C:\Users\Max\Documents\CodingNomads\Termial_testing
+λ rm -rf Terminal_testing_Sub\
